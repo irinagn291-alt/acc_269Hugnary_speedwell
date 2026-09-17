@@ -1,0 +1,15 @@
+The only usage-description string in the build settings is for the camera: This app does not use the camera. The app never asks for camera access, so no system permission alert appears. There are no microphone, photos, or location usage strings.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Speedwell is a home-bar well for people who already own bottles and want one cocktail they can mix tonight. It keeps a personal log of Backbar and Seated bottles, cracks, and pours, and the recipe book ships on the device. It is not a shop and not a delivery service.
+
+No credentials or demo account are needed. Cold launch opens a three-page walkthrough. The first page is titled Tonight's well and reads Pour one cocktail from bottles already on your rail. Tap Next. The second page is titled Crack, then pour and reads Crack seats a bottle. Surprise ignores sealed stock. Tap Next. The third page is titled Seat what you mix and reads Recork lifts a bottle. Pin a recipe you will make again. Tap Continue. Skip also finishes the walkthrough. The well then opens with a POUR band. If the bar is empty, the band reads The bar is empty. and Add a bottle, then pour. Tap Add a bottle or Bar. On Bar, under Own, type a Bottle name, choose a Kind, and tap Add bottle. New stock sits under Backbar. For a Martini, add one bottle with Kind Gin and one with Kind Vermouth, then tap Crack on each so both sit under Seated. Close Bar. The well lists Seated bottles. If bottles already sit under Seated and the band reads Tap Pour., tap Pour at once. Tap Pour. The band shows one cocktail name and One cocktail from the rail. Tap Pin. If the seated kinds do not match a recipe, the well can show Nothing makeable. Crack another bottle. If no bottle is seated, the list reads No bottle on the rail. Crack one, or Pour writes Dry, and Pour can show Dry. The bottom controls are Bar, Discover, Favorites, and Settings. Discover shows makeable on this rail, then Makeable and Missing a seated bottle. A Missing row can offer Crack plus a bottle name when that kind is still on Backbar. Favorites shows Pinned recipes and their methods. Settings shows Well counts for Seated, Bottles, Cracks, and Pours. Under Rail, tap Crack then pour to open Crack, where Backbar rows have Crack and Seated rows have Recork. The same Crack screen opens from Crack on the well. Under Catalog, tap Contact Speedwell. Under Well data, Replay walkthrough returns to the three pages. Reset the well opens a confirmation that reads Reset the well. Bottles, cracks, pours, and pins are removed. Confirm with Reset the well or Cancel.
+
+Bottles, cracks, pours, and pins stay on this device. Contact Speedwell is the support control.
+
+Behavior does not differ by region.
+
+No license or regulated-industry paperwork applies. The app does not sell alcohol, take payment for drinks, or operate a licensed venue.
+
+The app is a personal log only and gives no health, medical, or product-health recommendations.

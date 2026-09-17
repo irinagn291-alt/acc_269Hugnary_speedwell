@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023BB8753926FC59B9BB1447 /* WellVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333494A741B3374066587D0E /* WellVault.swift */; };
+		049062B094D98B924C60450B /* WellArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F042BDA2765E6295073441 /* WellArchitectureTests.swift */; };
+		05C3BEBD41A2C7398E2036B0 /* WellStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD40621EDAEEAB3BBA92700 /* WellStore.swift */; };
+		0CE979F988649F399C3893E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292A796B097AC7D3FEF2BABD /* Assets.xcassets */; };
+		14A3D549128D593B41446C7D /* SpeedwellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2EA94A5B03470185559AE /* SpeedwellApp.swift */; };
+		26D0DA3A4160D2FC88117C9C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 634F662DDAD377E565F669D9 /* Alamofire */; };
+		290A667FA32353A34FAA14B7 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4F34C84DF025D9DC250FA9 /* DiscoverView.swift */; };
+		2F50AFD992FDC8EF855753BB /* WellMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255F3B95E9B1613C98790A36 /* WellMeasure.swift */; };
+		31EC31CE6A8F977D17757035 /* OnboardingCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4FB4EAA8DEC66927087B9 /* OnboardingCover.swift */; };
+		384C20B21462D494DA4D8AC8 /* WellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5FAEDBB38E4246860E760E /* WellType.swift */; };
+		3C8FEFD37FC31FA330C20406 /* CrackStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953626ADD60562A365403C8D /* CrackStage.swift */; };
+		3D40029ABB924F6709137E92 /* WellEnergyBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9974B8D1762FCA5BE4BCA61C /* WellEnergyBand.swift */; };
+		3E26665FF4D8B969AFAB1398 /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A91F74E4206465EA18CE73 /* Bottle.swift */; };
+		412495C35C2CFB24EC3E4EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44965DBFD72A12ADAFE1D943 /* AppDelegate.swift */; };
+		471DBBE2DCA3DE810EA8AA59 /* WellChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CEA76F89E3337BE5528D8 /* WellChrome.swift */; };
+		4A50E230A5CD43C5F3E5CF74 /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC534DE87B675AF119BB9E4E /* FamilyInvariantTests.swift */; };
+		4AFC0ADDCE855F0761BA92B4 /* WellProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39135E0818023AAC26827F7 /* WellProbe.swift */; };
+		5BCAA6629613AB9215E3A1AC /* SurpriseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2AF4D8C08E283457B7AE0 /* SurpriseView.swift */; };
+		610518EFA352D7957A374F71 /* WellPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C871D50C9C8D15BA59DDFC /* WellPersistenceTests.swift */; };
+		61C466E5B04A27528BA19756 /* WellIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1282A10D282723B54DC67845 /* WellIntents.swift */; };
+		707FB86F9FC13F312C931038 /* PeakWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920C0936DAAE4D224A83E92C /* PeakWindowTests.swift */; };
+		71193B170962F35AB8BFC777 /* WellPourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E84D85BCCCF996FC3F6EF5 /* WellPourTests.swift */; };
+		7569610A1C7F384F2DE8AF82 /* CrackMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486C7889121D61E1DC5C782 /* CrackMark.swift */; };
+		7E1848C5D690AC1B63B4ABFC /* WellPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC0ABAEC1CAE77EE686337E /* WellPaths.swift */; };
+		83B1C7330AE619F6CAC6ED78 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 19AA8ACA2D2298F4D7B67F1C /* recipes.json */; };
+		83F7EAC878B6628D92478F09 /* WellCutout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E47C2E0D9179AE89046823F /* WellCutout.swift */; };
+		8B60A0F9B0F177731756BAD7 /* WellPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7453D483DD492C8886A12DAF /* WellPulse.swift */; };
+		8CDF41042FE9BC741FFDDC39 /* RecipeCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B9C4F9872522725203B37E /* RecipeCatalog.swift */; };
+		8DCD497033D2283FA560D3F7 /* WellBooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92415F744D1CD0C13318106 /* WellBooth.swift */; };
+		930F746B67908285CB1BB123 /* PeakWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F45619448444FA137B975E /* PeakWindow.swift */; };
+		95092930421EE8664E2AAA73 /* WellProbeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF14ED2216D6A61226E99F0 /* WellProbeTests.swift */; };
+		979F218C9D83B17BD5BDF00C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA0418DFFD60AFC82A6D3B /* SettingsView.swift */; };
+		9E86DCFC5C3DB7E0718346EE /* WellTwistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF711390B131855A86B5664C /* WellTwistTests.swift */; };
+		A1F814616D350C97608FE2C0 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFABEB2924785279E073BC7 /* FavoritesView.swift */; };
+		A8A0E323887D329FA7B6C967 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0187AA9ADF02A3D56A17AF53 /* Recipe.swift */; };
+		B7D1D9D045240A9D89A4862F /* WellLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C764CB33A802B0CAFABD3450 /* WellLinks.swift */; };
+		B970EFE0B812A3351A9BA835 /* WellInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA3AED2127814D6067943C /* WellInk.swift */; };
+		BBAE68F4EEF9866E8CD148E3 /* Rail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B97E7A6A711D990B547D87 /* Rail.swift */; };
+		BD5F7F183206F8178B7AFC3A /* SpeedwellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F973CA5EA9A8FD55C91DC60 /* SpeedwellTests.swift */; };
+		C151BCB85C9ADC700F1FFFB8 /* WellPaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CD501DDC46E1BE80850EEC /* WellPaint.swift */; };
+		C93234127A6FEB678DC93318 /* RailSeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAA6893661E21F5FFF7817 /* RailSeat.swift */; };
+		D0B3E99AD83644F304D4ECF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5071E31F9D2656B0782A5E0 /* ContentView.swift */; };
+		E30424D708727628008D2B57 /* RailWellShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DBBE592115BC04B7FA1956 /* RailWellShape.swift */; };
+		E4632F3074D9835B4C981B38 /* Well.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D2274312CE8D29874F07 /* Well.swift */; };
+		E8F008CA0B8209578AB18657 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FF45F640364CD37309626 /* BarView.swift */; };
+		EDBD485078702F17E7AFCE46 /* PourMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D58DD1432E697E873268772 /* PourMark.swift */; };
+		EE089962129AB94F410097FC /* WellDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75224240952AA34D204003A0 /* WellDay.swift */; };
+		F6C0A6F2FC06C84E33D4809D /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B66025D3EBC7C915F94F0B /* APIConfig.swift */; };
+		FAFFEBD1C4066776A02D142C /* WellBoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265FECC109FDBF010C36E63 /* WellBoothTests.swift */; };
+		FEAB455FDC491E6A30AD67FB /* WellLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE911F922D7060F1FA9ACF5A /* WellLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E69D7FD240435672CF814511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202A00073425E1BDDBD9B36B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5154B40707ACE25E8CCB0538;
+			remoteInfo = Speedwell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0187AA9ADF02A3D56A17AF53 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		02E84D85BCCCF996FC3F6EF5 /* WellPourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellPourTests.swift; sourceTree = "<group>"; };
+		0486C7889121D61E1DC5C782 /* CrackMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackMark.swift; sourceTree = "<group>"; };
+		0BC0ABAEC1CAE77EE686337E /* WellPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellPaths.swift; sourceTree = "<group>"; };
+		0F973CA5EA9A8FD55C91DC60 /* SpeedwellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedwellTests.swift; sourceTree = "<group>"; };
+		1282A10D282723B54DC67845 /* WellIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellIntents.swift; sourceTree = "<group>"; };
+		18CAA6893661E21F5FFF7817 /* RailSeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailSeat.swift; sourceTree = "<group>"; };
+		19AA8ACA2D2298F4D7B67F1C /* recipes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		255F3B95E9B1613C98790A36 /* WellMeasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellMeasure.swift; sourceTree = "<group>"; };
+		292A796B097AC7D3FEF2BABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC9831E81CC8ADFD1339E92 /* Speedwell.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Speedwell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAA3AED2127814D6067943C /* WellInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellInk.swift; sourceTree = "<group>"; };
+		333494A741B3374066587D0E /* WellVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellVault.swift; sourceTree = "<group>"; };
+		44965DBFD72A12ADAFE1D943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5265FECC109FDBF010C36E63 /* WellBoothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellBoothTests.swift; sourceTree = "<group>"; };
+		5BF14ED2216D6A61226E99F0 /* WellProbeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellProbeTests.swift; sourceTree = "<group>"; };
+		5D58DD1432E697E873268772 /* PourMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourMark.swift; sourceTree = "<group>"; };
+		5E7CEA76F89E3337BE5528D8 /* WellChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellChrome.swift; sourceTree = "<group>"; };
+		64F042BDA2765E6295073441 /* WellArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellArchitectureTests.swift; sourceTree = "<group>"; };
+		6AF2EA94A5B03470185559AE /* SpeedwellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedwellApp.swift; sourceTree = "<group>"; };
+		73F45619448444FA137B975E /* PeakWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakWindow.swift; sourceTree = "<group>"; };
+		7453D483DD492C8886A12DAF /* WellPulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellPulse.swift; sourceTree = "<group>"; };
+		74CD501DDC46E1BE80850EEC /* WellPaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellPaint.swift; sourceTree = "<group>"; };
+		75224240952AA34D204003A0 /* WellDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellDay.swift; sourceTree = "<group>"; };
+		77B4FB4EAA8DEC66927087B9 /* OnboardingCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCover.swift; sourceTree = "<group>"; };
+		7C4F34C84DF025D9DC250FA9 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		82C5852602E4C3D8DA1BC632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E47C2E0D9179AE89046823F /* WellCutout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellCutout.swift; sourceTree = "<group>"; };
+		8FD2AF4D8C08E283457B7AE0 /* SurpriseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurpriseView.swift; sourceTree = "<group>"; };
+		920C0936DAAE4D224A83E92C /* PeakWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakWindowTests.swift; sourceTree = "<group>"; };
+		953626ADD60562A365403C8D /* CrackStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackStage.swift; sourceTree = "<group>"; };
+		96B97E7A6A711D990B547D87 /* Rail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rail.swift; sourceTree = "<group>"; };
+		9974B8D1762FCA5BE4BCA61C /* WellEnergyBand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellEnergyBand.swift; sourceTree = "<group>"; };
+		9C61D686D3CB26962EB458AA /* SpeedwellTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SpeedwellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFABEB2924785279E073BC7 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		A8B9C4F9872522725203B37E /* RecipeCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCatalog.swift; sourceTree = "<group>"; };
+		AF711390B131855A86B5664C /* WellTwistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellTwistTests.swift; sourceTree = "<group>"; };
+		BBDA0418DFFD60AFC82A6D3B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BC534DE87B675AF119BB9E4E /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		C764CB33A802B0CAFABD3450 /* WellLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellLinks.swift; sourceTree = "<group>"; };
+		CDE8D2274312CE8D29874F07 /* Well.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Well.swift; sourceTree = "<group>"; };
+		D0DBBE592115BC04B7FA1956 /* RailWellShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailWellShape.swift; sourceTree = "<group>"; };
+		D8C871D50C9C8D15BA59DDFC /* WellPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellPersistenceTests.swift; sourceTree = "<group>"; };
+		DD2FF45F640364CD37309626 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		DD5FAEDBB38E4246860E760E /* WellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellType.swift; sourceTree = "<group>"; };
+		E3A91F74E4206465EA18CE73 /* Bottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottle.swift; sourceTree = "<group>"; };
+		E8B66025D3EBC7C915F94F0B /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		E92415F744D1CD0C13318106 /* WellBooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellBooth.swift; sourceTree = "<group>"; };
+		EE911F922D7060F1FA9ACF5A /* WellLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellLaunchTests.swift; sourceTree = "<group>"; };
+		F39135E0818023AAC26827F7 /* WellProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellProbe.swift; sourceTree = "<group>"; };
+		F5071E31F9D2656B0782A5E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBD40621EDAEEAB3BBA92700 /* WellStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A954E9A72026A5AAD198CC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D0DA3A4160D2FC88117C9C /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1B003D737AF43E14F20F42 /* CrackMark */ = {
+			isa = PBXGroup;
+			children = (
+				0486C7889121D61E1DC5C782 /* CrackMark.swift */,
+				953626ADD60562A365403C8D /* CrackStage.swift */,
+			);
+			path = CrackMark;
+			sourceTree = "<group>";
+		};
+		343BE45BCBFA8A70FC74C326 /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				7C4F34C84DF025D9DC250FA9 /* DiscoverView.swift */,
+				9DFABEB2924785279E073BC7 /* FavoritesView.swift */,
+				0187AA9ADF02A3D56A17AF53 /* Recipe.swift */,
+				A8B9C4F9872522725203B37E /* RecipeCatalog.swift */,
+				19AA8ACA2D2298F4D7B67F1C /* recipes.json */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		3EABA15B811C353C173066E0 /* Rail */ = {
+			isa = PBXGroup;
+			children = (
+				96B97E7A6A711D990B547D87 /* Rail.swift */,
+				18CAA6893661E21F5FFF7817 /* RailSeat.swift */,
+				D0DBBE592115BC04B7FA1956 /* RailWellShape.swift */,
+			);
+			path = Rail;
+			sourceTree = "<group>";
+		};
+		6060094F417FB945890A0D19 = {
+			isa = PBXGroup;
+			children = (
+				A8D33FE0A330317F0A108969 /* Speedwell */,
+				9D9E4C38CA747A168A0047A1 /* SpeedwellTests */,
+				DA1B76605C0F872021A68B6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60EC5B284DD7067D3A20B906 /* PourMark */ = {
+			isa = PBXGroup;
+			children = (
+				5D58DD1432E697E873268772 /* PourMark.swift */,
+			);
+			path = PourMark;
+			sourceTree = "<group>";
+		};
+		67EB6378120997E053E2B8C6 /* Well */ = {
+			isa = PBXGroup;
+			children = (
+				77B4FB4EAA8DEC66927087B9 /* OnboardingCover.swift */,
+				73F45619448444FA137B975E /* PeakWindow.swift */,
+				BBDA0418DFFD60AFC82A6D3B /* SettingsView.swift */,
+				8FD2AF4D8C08E283457B7AE0 /* SurpriseView.swift */,
+				CDE8D2274312CE8D29874F07 /* Well.swift */,
+				E92415F744D1CD0C13318106 /* WellBooth.swift */,
+				5E7CEA76F89E3337BE5528D8 /* WellChrome.swift */,
+				8E47C2E0D9179AE89046823F /* WellCutout.swift */,
+				75224240952AA34D204003A0 /* WellDay.swift */,
+				9974B8D1762FCA5BE4BCA61C /* WellEnergyBand.swift */,
+				2FAA3AED2127814D6067943C /* WellInk.swift */,
+				1282A10D282723B54DC67845 /* WellIntents.swift */,
+				C764CB33A802B0CAFABD3450 /* WellLinks.swift */,
+				255F3B95E9B1613C98790A36 /* WellMeasure.swift */,
+				74CD501DDC46E1BE80850EEC /* WellPaint.swift */,
+				0BC0ABAEC1CAE77EE686337E /* WellPaths.swift */,
+				F39135E0818023AAC26827F7 /* WellProbe.swift */,
+				7453D483DD492C8886A12DAF /* WellPulse.swift */,
+				FBD40621EDAEEAB3BBA92700 /* WellStore.swift */,
+				DD5FAEDBB38E4246860E760E /* WellType.swift */,
+				333494A741B3374066587D0E /* WellVault.swift */,
+			);
+			path = Well;
+			sourceTree = "<group>";
+		};
+		9D9E4C38CA747A168A0047A1 /* SpeedwellTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC534DE87B675AF119BB9E4E /* FamilyInvariantTests.swift */,
+				920C0936DAAE4D224A83E92C /* PeakWindowTests.swift */,
+				0F973CA5EA9A8FD55C91DC60 /* SpeedwellTests.swift */,
+				64F042BDA2765E6295073441 /* WellArchitectureTests.swift */,
+				5265FECC109FDBF010C36E63 /* WellBoothTests.swift */,
+				EE911F922D7060F1FA9ACF5A /* WellLaunchTests.swift */,
+				D8C871D50C9C8D15BA59DDFC /* WellPersistenceTests.swift */,
+				02E84D85BCCCF996FC3F6EF5 /* WellPourTests.swift */,
+				5BF14ED2216D6A61226E99F0 /* WellProbeTests.swift */,
+				AF711390B131855A86B5664C /* WellTwistTests.swift */,
+			);
+			path = SpeedwellTests;
+			sourceTree = "<group>";
+		};
+		A8D33FE0A330317F0A108969 /* Speedwell */ = {
+			isa = PBXGroup;
+			children = (
+				E8B66025D3EBC7C915F94F0B /* APIConfig.swift */,
+				44965DBFD72A12ADAFE1D943 /* AppDelegate.swift */,
+				292A796B097AC7D3FEF2BABD /* Assets.xcassets */,
+				F5071E31F9D2656B0782A5E0 /* ContentView.swift */,
+				82C5852602E4C3D8DA1BC632 /* Info.plist */,
+				6AF2EA94A5B03470185559AE /* SpeedwellApp.swift */,
+				EC3C9AD7812E9CC56A18021A /* Bottle */,
+				0B1B003D737AF43E14F20F42 /* CrackMark */,
+				60EC5B284DD7067D3A20B906 /* PourMark */,
+				3EABA15B811C353C173066E0 /* Rail */,
+				343BE45BCBFA8A70FC74C326 /* Recipe */,
+				67EB6378120997E053E2B8C6 /* Well */,
+			);
+			path = Speedwell;
+			sourceTree = "<group>";
+		};
+		DA1B76605C0F872021A68B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC9831E81CC8ADFD1339E92 /* Speedwell.app */,
+				9C61D686D3CB26962EB458AA /* SpeedwellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3C9AD7812E9CC56A18021A /* Bottle */ = {
+			isa = PBXGroup;
+			children = (
+				DD2FF45F640364CD37309626 /* BarView.swift */,
+				E3A91F74E4206465EA18CE73 /* Bottle.swift */,
+			);
+			path = Bottle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5154B40707ACE25E8CCB0538 /* Speedwell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D070E568C1D7A772B55749 /* Build configuration list for PBXNativeTarget "Speedwell" */;
+			buildPhases = (
+				69ABAF94B3DCCBCA43A347A1 /* Sources */,
+				DC286BD14275B5377E716F5A /* Resources */,
+				A954E9A72026A5AAD198CC3D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speedwell;
+			packageProductDependencies = (
+				634F662DDAD377E565F669D9 /* Alamofire */,
+			);
+			productName = Speedwell;
+			productReference = 2AC9831E81CC8ADFD1339E92 /* Speedwell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FC24C018CDB6F7DDD75FB5 /* SpeedwellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A59BEC86E04A3CAFA37F83F /* Build configuration list for PBXNativeTarget "SpeedwellTests" */;
+			buildPhases = (
+				C01963AC6CA737DDC8B3595E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7327370D8F971C1370A0AE99 /* PBXTargetDependency */,
+			);
+			name = SpeedwellTests;
+			packageProductDependencies = (
+			);
+			productName = SpeedwellTests;
+			productReference = 9C61D686D3CB26962EB458AA /* SpeedwellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202A00073425E1BDDBD9B36B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5154B40707ACE25E8CCB0538 = {
+						ProvisioningStyle = Automatic;
+					};
+					A9FC24C018CDB6F7DDD75FB5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 525D49EB83294E7880ADF235 /* Build configuration list for PBXProject "Speedwell" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6060094F417FB945890A0D19;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				22A7494707D5C87FB015839A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DA1B76605C0F872021A68B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5154B40707ACE25E8CCB0538 /* Speedwell */,
+				A9FC24C018CDB6F7DDD75FB5 /* SpeedwellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC286BD14275B5377E716F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE979F988649F399C3893E6 /* Assets.xcassets in Resources */,
+				83B1C7330AE619F6CAC6ED78 /* recipes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69ABAF94B3DCCBCA43A347A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C0A6F2FC06C84E33D4809D /* APIConfig.swift in Sources */,
+				412495C35C2CFB24EC3E4EBB /* AppDelegate.swift in Sources */,
+				E8F008CA0B8209578AB18657 /* BarView.swift in Sources */,
+				3E26665FF4D8B969AFAB1398 /* Bottle.swift in Sources */,
+				D0B3E99AD83644F304D4ECF1 /* ContentView.swift in Sources */,
+				7569610A1C7F384F2DE8AF82 /* CrackMark.swift in Sources */,
+				3C8FEFD37FC31FA330C20406 /* CrackStage.swift in Sources */,
+				290A667FA32353A34FAA14B7 /* DiscoverView.swift in Sources */,
+				A1F814616D350C97608FE2C0 /* FavoritesView.swift in Sources */,
+				31EC31CE6A8F977D17757035 /* OnboardingCover.swift in Sources */,
+				930F746B67908285CB1BB123 /* PeakWindow.swift in Sources */,
+				EDBD485078702F17E7AFCE46 /* PourMark.swift in Sources */,
+				BBAE68F4EEF9866E8CD148E3 /* Rail.swift in Sources */,
+				C93234127A6FEB678DC93318 /* RailSeat.swift in Sources */,
+				E30424D708727628008D2B57 /* RailWellShape.swift in Sources */,
+				A8A0E323887D329FA7B6C967 /* Recipe.swift in Sources */,
+				8CDF41042FE9BC741FFDDC39 /* RecipeCatalog.swift in Sources */,
+				979F218C9D83B17BD5BDF00C /* SettingsView.swift in Sources */,
+				14A3D549128D593B41446C7D /* SpeedwellApp.swift in Sources */,
+				5BCAA6629613AB9215E3A1AC /* SurpriseView.swift in Sources */,
+				E4632F3074D9835B4C981B38 /* Well.swift in Sources */,
+				8DCD497033D2283FA560D3F7 /* WellBooth.swift in Sources */,
+				471DBBE2DCA3DE810EA8AA59 /* WellChrome.swift in Sources */,
+				83F7EAC878B6628D92478F09 /* WellCutout.swift in Sources */,
+				EE089962129AB94F410097FC /* WellDay.swift in Sources */,
+				3D40029ABB924F6709137E92 /* WellEnergyBand.swift in Sources */,
+				B970EFE0B812A3351A9BA835 /* WellInk.swift in Sources */,
+				61C466E5B04A27528BA19756 /* WellIntents.swift in Sources */,
+				B7D1D9D045240A9D89A4862F /* WellLinks.swift in Sources */,
+				2F50AFD992FDC8EF855753BB /* WellMeasure.swift in Sources */,
+				C151BCB85C9ADC700F1FFFB8 /* WellPaint.swift in Sources */,
+				7E1848C5D690AC1B63B4ABFC /* WellPaths.swift in Sources */,
+				4AFC0ADDCE855F0761BA92B4 /* WellProbe.swift in Sources */,
+				8B60A0F9B0F177731756BAD7 /* WellPulse.swift in Sources */,
+				05C3BEBD41A2C7398E2036B0 /* WellStore.swift in Sources */,
+				384C20B21462D494DA4D8AC8 /* WellType.swift in Sources */,
+				023BB8753926FC59B9BB1447 /* WellVault.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01963AC6CA737DDC8B3595E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A50E230A5CD43C5F3E5CF74 /* FamilyInvariantTests.swift in Sources */,
+				707FB86F9FC13F312C931038 /* PeakWindowTests.swift in Sources */,
+				BD5F7F183206F8178B7AFC3A /* SpeedwellTests.swift in Sources */,
+				049062B094D98B924C60450B /* WellArchitectureTests.swift in Sources */,
+				FAFFEBD1C4066776A02D142C /* WellBoothTests.swift in Sources */,
+				FEAB455FDC491E6A30AD67FB /* WellLaunchTests.swift in Sources */,
+				610518EFA352D7957A374F71 /* WellPersistenceTests.swift in Sources */,
+				71193B170962F35AB8BFC777 /* WellPourTests.swift in Sources */,
+				95092930421EE8664E2AAA73 /* WellProbeTests.swift in Sources */,
+				9E86DCFC5C3DB7E0718346EE /* WellTwistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7327370D8F971C1370A0AE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5154B40707ACE25E8CCB0538 /* Speedwell */;
+			targetProxy = E69D7FD240435672CF814511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CFBC9935017436A000314B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speedwell/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Speedwell;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedwell.rail;
+				PRODUCT_NAME = Speedwell;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E85D604257AF15DA94D4E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		5808B8B697679E8C61F5A4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Speedwell/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Speedwell;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedwell.rail;
+				PRODUCT_NAME = Speedwell;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF6B89B620FFA51BBEB4CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedwell.rail.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speedwell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Speedwell";
+			};
+			name = Release;
+		};
+		BD96039B9976548F52751972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedwell.rail.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speedwell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Speedwell";
+			};
+			name = Debug;
+		};
+		F371511153D0F409E5BCCA51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D070E568C1D7A772B55749 /* Build configuration list for PBXNativeTarget "Speedwell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5808B8B697679E8C61F5A4F4 /* Debug */,
+				1CFBC9935017436A000314B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		525D49EB83294E7880ADF235 /* Build configuration list for PBXProject "Speedwell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F371511153D0F409E5BCCA51 /* Debug */,
+				3E85D604257AF15DA94D4E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A59BEC86E04A3CAFA37F83F /* Build configuration list for PBXNativeTarget "SpeedwellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD96039B9976548F52751972 /* Debug */,
+				7EF6B89B620FFA51BBEB4CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22A7494707D5C87FB015839A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		634F662DDAD377E565F669D9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22A7494707D5C87FB015839A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 202A00073425E1BDDBD9B36B /* Project object */;
+}

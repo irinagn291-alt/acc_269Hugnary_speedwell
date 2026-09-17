@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "recipes": [
+    {
+      "id": "A1111111-1111-4111-8111-111111111111",
+      "name": "Negroni",
+      "bottleKinds": ["gin", "campari", "vermouth"],
+      "method": "Stir equal parts over ice. Orange peel."
+    },
+    {
+      "id": "A2222222-2222-4222-8222-222222222222",
+      "name": "Martini",
+      "bottleKinds": ["gin", "vermouth"],
+      "method": "Stir gin and vermouth. Lemon twist."
+    },
+    {
+      "id": "A3333333-3333-4333-8333-333333333333",
+      "name": "Manhattan",
+      "bottleKinds": ["whiskey", "vermouth", "bitters"],
+      "method": "Stir rye, vermouth, and bitters. Cherry."
+    },
+    {
+      "id": "A4444444-4444-4444-8444-444444444444",
+      "name": "Old Fashioned",
+      "bottleKinds": ["whiskey", "bitters"],
+      "method": "Build whiskey and bitters over ice. Orange peel."
+    },
+    {
+      "id": "A5555555-5555-4555-8555-555555555555",
+      "name": "Boulevardier",
+      "bottleKinds": ["whiskey", "campari", "vermouth"],
+      "method": "Stir whiskey, Campari, and vermouth. Orange peel."
+    },
+    {
+      "id": "A6666666-6666-4666-8666-666666666666",
+      "name": "Daiquiri",
+      "bottleKinds": ["rum", "lime"],
+      "method": "Shake rum and lime. Coupe."
+    },
+    {
+      "id": "A7777777-7777-4777-8777-777777777777",
+      "name": "Margarita",
+      "bottleKinds": ["tequila", "triple_sec", "lime"],
+      "method": "Shake tequila, triple sec, and lime. Salt optional."
+    },
+    {
+      "id": "A8888888-8888-4888-8888-888888888888",
+      "name": "Paloma",
+      "bottleKinds": ["tequila", "lime"],
+      "method": "Build tequila and lime over ice."
+    },
+    {
+      "id": "A9999999-9999-4999-8999-999999999999",
+      "name": "French 75",
+      "bottleKinds": ["gin", "sparkling", "lemon"],
+      "method": "Shake gin and lemon. Top sparkling."
+    },
+    {
+      "id": "AAAAAAA1-AAA1-4AA1-8AA1-AAAAAAAAAAA1",
+      "name": "Whiskey Sour",
+      "bottleKinds": ["whiskey", "lemon"],
+      "method": "Shake whiskey and lemon. Coupe."
+    },
+    {
+      "id": "AAAAAAA2-AAA2-4AA2-8AA2-AAAAAAAAAAA2",
+      "name": "Espresso Martini",
+      "bottleKinds": ["vodka", "coffee_liqueur"],
+      "method": "Shake vodka and coffee liqueur. Coupe."
+    },
+    {
+      "id": "AAAAAAA3-AAA3-4AA3-8AA3-AAAAAAAAAAA3",
+      "name": "Gin Rickey",
+      "bottleKinds": ["gin", "lime"],
+      "method": "Build gin and lime over ice."
+    }
+  ]
+}

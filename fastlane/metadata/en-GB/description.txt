@@ -1,0 +1,15 @@
+Speedwell is for home bartenders who already own bottles and want one cocktail they can mix tonight. Tap Pour on the well to get one recipe whose bottles all sit Seated on the rail.
+
+• Tonight's well. Three walkthrough pages: Tonight's well, Crack, then pour, and Seat what you mix. Next, Continue or Skip finishes them.
+• Pour. The well shows POUR plus seated and makeable counts. Tap Pour for one cocktail from the rail. The recipe name appears on the well.
+• Dry. If no bottle is Seated, Pour still runs and the well can show Dry.
+• Crack then pour. Add a bottle writes Backbar. Crack seats it on the rail. Recork lifts it. Surprise ignores sealed stock. Pour does not empty a bottle.
+• Bar. Under Own, enter a Bottle name, pick a Kind and tap Add bottle. Seated rows offer Recork. Backbar rows offer Crack.
+• Crack. Backbar is owned and sealed. Crack seats it. Recork lifts it. Pour does not empty it.
+• Discover. Shows makeable on this rail, plus Cracks and Pours, then Makeable recipes and Missing a seated bottle.
+• Favourites. Pin a recipe on the well, then read the method under Pinned.
+• Settings. Well counts, Crack then pour, Replay walkthrough, Reset the well and Contact Speedwell. Recipes ship on this device.
+• Recipe book. Negroni, Martini, Manhattan, Old Fashioned, Boulevardier, Daiquiri, Margarita, Paloma, French 75, Whiskey Sour, Espresso Martini and Gin Rickey.
+• Siri. Pour, or open Surprise, Bar, Discover, Favourites or Settings.
+
+Bottles, cracks, pours and pins stay on this device. There is no account and no in-app purchase.
